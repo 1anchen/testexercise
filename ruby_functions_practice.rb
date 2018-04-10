@@ -42,3 +42,15 @@ def number_to_full_month_name(month)
    return "Month not recognised"
  end
 end
+
+def number_to_short_month_name(month)
+ if month == 1
+   return "Jan"
+ elsif month == 3
+   return "Mar"
+ elsif month == 9
+   return "Sep"
+ else
+   return "Month not recognised"
+ end
+end
